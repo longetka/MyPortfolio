@@ -1,2 +1,4 @@
 import './styles/style.scss';
-import './images/DenisPhoto.jpg';
+import img from './images/pics/DenisPhoto.jpg';
+
+document.querySelector('.imageBlock__img').src = img;
