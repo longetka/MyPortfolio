@@ -1,0 +1,29 @@
+.aboutMe {
+    height: 506px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        width: 485px;
+        height: 280px;
+    }
+
+    &__title {
+        @include font($font: 'Gilroy-Bold', $size: 34px, $lh: 42px, $color: $black);
+        text-align: center;
+    }
+    &__subtitles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+
+        & p {
+            @include font($font: 'Gilroy', $size: 18px, $lh: 22px, $color: $black);
+        }
+    }
+}
