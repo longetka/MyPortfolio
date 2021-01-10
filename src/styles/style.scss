@@ -1,0 +1,10 @@
+@import '../fonts/fonts.css'; // import Fonts
+@import './reset.scss'; // import Reset css
+@import './variables.scss'; // import Variables
+@import './navbar/style.scss'; // import Styles for Navbar
+@import './home/style.scss'; // import Styles for Home section
+
+body {
+    width: 940px;
+    margin: 0 auto;
+}

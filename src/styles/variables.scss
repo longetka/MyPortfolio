@@ -1,0 +1,13 @@
+// Colors
+$gray: #828282;
+$black: #070707;
+
+// Fonts setting
+@mixin font($font, $size, $lh, $color) {
+    font: {
+        family: $font;
+        size: $size;
+    }
+    line-height: $lh;
+    color: $color;
+}
